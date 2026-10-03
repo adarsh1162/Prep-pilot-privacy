@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy & Legal Disclaimers - PREP PILOT</title>
+    <title>Privacy Policy - PREP PILOT: Exam Preparation</title>
+    <meta name="description" content="Privacy Policy and Legal Disclaimers for PREP PILOT: Exam Preparation app by QuantaWerse.">
     <style>
         :root {
             --primary: #2563eb;
-            --primary-dark: #1d4ed8;
             --text-dark: #0f172a;
             --text-muted: #475569;
             --bg-light: #f8fafc;
@@ -18,343 +18,364 @@
             --alert-text: #991b1b;
             --badge-bg: #eff6ff;
             --badge-text: #1e40af;
+            --section-border: #2563eb;
         }
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.65;
+            line-height: 1.7;
             color: var(--text-dark);
             background-color: var(--bg-light);
             padding: 24px 16px;
         }
         .container {
-            max-width: 860px;
+            max-width: 880px;
             margin: 0 auto;
             background: var(--card-bg);
-            padding: 40px;
-            border-radius: 14px;
-            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.02);
+            padding: 44px;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px -10px rgba(0,0,0,0.08);
             border: 1px solid var(--border-color);
         }
-        .header {
-            border-bottom: 2px solid var(--border-color);
-            padding-bottom: 20px;
-            margin-bottom: 24px;
-        }
+        .header { border-bottom: 2px solid var(--border-color); padding-bottom: 22px; margin-bottom: 26px; }
         .app-badge {
             display: inline-block;
-            background: var(--badge-bg);
-            color: var(--badge-text);
-            font-size: 13px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            padding: 4px 10px;
-            border-radius: 6px;
-            margin-bottom: 12px;
+            background: var(--badge-bg); color: var(--badge-text);
+            font-size: 12px; font-weight: 700; text-transform: uppercase;
+            letter-spacing: 0.8px; padding: 4px 12px;
+            border-radius: 20px; margin-bottom: 14px;
         }
-        h1 {
-            color: var(--text-dark);
-            font-size: 30px;
-            font-weight: 800;
-            letter-spacing: -0.5px;
-            margin-bottom: 8px;
-        }
-        .meta-info {
-            color: var(--text-muted);
-            font-size: 14px;
-        }
+        h1 { color: var(--text-dark); font-size: 28px; font-weight: 800; margin-bottom: 10px; }
+        .meta-info { color: var(--text-muted); font-size: 13.5px; line-height: 1.8; }
+        .meta-info strong { color: var(--text-dark); }
+
+        /* Government Disclaimer Box */
         .disclaimer-box {
             background-color: var(--alert-bg);
             border: 2px solid var(--alert-border);
-            border-radius: 10px;
-            padding: 20px;
-            margin: 24px 0;
+            border-radius: 12px; padding: 22px; margin: 26px 0;
         }
         .disclaimer-box h3 {
-            color: var(--alert-text);
-            font-size: 18px;
-            font-weight: 700;
-            margin-bottom: 10px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
+            color: var(--alert-text); font-size: 15px; font-weight: 800;
+            margin-bottom: 12px; display: flex; align-items: center; gap: 8px;
+            text-transform: uppercase; letter-spacing: 0.5px;
         }
         .disclaimer-box p {
-            color: #7f1d1d;
-            font-size: 14.5px;
-            line-height: 1.6;
-            margin-bottom: 10px;
+            color: #7f1d1d; font-size: 14px; line-height: 1.65; margin-bottom: 10px;
         }
-        .disclaimer-box p:last-child {
-            margin-bottom: 0;
-        }
+        .disclaimer-box p:last-child { margin-bottom: 0; }
+
+        /* Section Headings */
         h2 {
-            color: var(--text-dark);
-            font-size: 20px;
-            font-weight: 700;
-            margin-top: 32px;
-            margin-bottom: 12px;
-            border-left: 4px solid var(--primary);
-            padding-left: 12px;
+            color: var(--text-dark); font-size: 18px; font-weight: 700;
+            margin-top: 36px; margin-bottom: 12px;
+            border-left: 4px solid var(--section-border); padding-left: 14px;
         }
-        p, li {
-            color: var(--text-muted);
-            font-size: 15px;
+        p { color: var(--text-muted); font-size: 14.5px; margin-bottom: 14px; line-height: 1.7; }
+        ul, ol { padding-left: 22px; margin-bottom: 14px; }
+        li { color: var(--text-muted); font-size: 14.5px; margin-bottom: 8px; line-height: 1.65; }
+        strong { color: var(--text-dark); }
+        a { color: var(--primary); text-decoration: none; word-break: break-all; }
+        a:hover { text-decoration: underline; }
+
+        /* Sources Table */
+        table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 13.5px; }
+        th, td { padding: 11px 13px; border: 1px solid var(--border-color); text-align: left; vertical-align: top; }
+        th { background-color: #f1f5f9; color: var(--text-dark); font-weight: 600; }
+
+        /* Info Box */
+        .info-box {
+            background: #f0f9ff; border: 1px solid #bae6fd;
+            border-radius: 10px; padding: 18px; margin: 16px 0;
         }
-        p {
-            margin-bottom: 14px;
+        .info-box p { color: #0c4a6e; font-size: 14px; margin-bottom: 0; }
+
+        /* Account Deletion Box */
+        .deletion-box {
+            background: #f0fdf4; border: 1px solid #86efac;
+            border-radius: 10px; padding: 18px; margin: 16px 0;
         }
-        ul, ol {
-            padding-left: 24px;
-            margin-bottom: 16px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        strong {
-            color: var(--text-dark);
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-            font-size: 14px;
-        }
-        th, td {
-            padding: 12px 14px;
-            border: 1px solid var(--border-color);
-            text-align: left;
-        }
-        th {
-            background-color: #f1f5f9;
-            color: var(--text-dark);
-            font-weight: 600;
-        }
-        td a {
-            color: var(--primary);
-            text-decoration: none;
-            word-break: break-all;
-            font-weight: 500;
-        }
-        td a:hover {
-            text-decoration: underline;
-        }
+        .deletion-box p { color: #14532d; font-size: 14px; margin-bottom: 8px; }
+        .deletion-box p:last-child { margin-bottom: 0; }
+
+        /* Contact Box */
         .contact-box {
-            background-color: #f8fafc;
-            border: 1px solid var(--border-color);
-            border-radius: 10px;
-            padding: 20px;
-            margin-top: 30px;
+            background: #f8fafc; border: 1px solid var(--border-color);
+            border-radius: 12px; padding: 22px; margin-top: 32px;
         }
-        .contact-box h3 {
-            color: var(--text-dark);
-            margin-bottom: 12px;
-            font-size: 18px;
-        }
-        .contact-box p {
-            margin-bottom: 8px;
-        }
-        .contact-box a {
-            color: var(--primary);
-            text-decoration: none;
-        }
-        .contact-box a:hover {
-            text-decoration: underline;
-        }
+        .contact-box h3 { color: var(--text-dark); font-size: 17px; font-weight: 700; margin-bottom: 14px; }
+        .contact-box p { font-size: 14px; margin-bottom: 8px; }
+
         @media (max-width: 600px) {
-            .container {
-                padding: 20px 16px;
-            }
-            h1 {
-                font-size: 24px;
-            }
-            table {
-                font-size: 13px;
-            }
-            th, td {
-                padding: 8px 10px;
-            }
+            .container { padding: 22px 16px; }
+            h1 { font-size: 22px; }
+            table { font-size: 12px; }
+            th, td { padding: 8px 9px; }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header class="header">
-            <span class="app-badge">Official Policy & Legal Notice</span>
-            <h1>Privacy Policy & Legal Disclaimers</h1>
-            <p class="meta-info"><strong>Application:</strong> PREP PILOT: Exam Preparation (Package: <code>com.quantawerse.preppilot</code>)</p>
-            <p class="meta-info"><strong>Developer / Entity:</strong> QuantaWerse / Adarsh Pathak</p>
-            <p class="meta-info"><strong>Last Updated & Effective Date:</strong> October 4, 2026</p>
-        </header>
+<div class="container">
 
-        <!-- SECTION 0: MANDATORY GOVERNMENT DISCLAIMER (MISLEADING CLAIMS POLICY COMPLIANCE) -->
-        <div class="disclaimer-box">
-            <h3>⚠️ MANDATORY NON-GOVERNMENT ENTITY DISCLAIMER</h3>
-            <p><strong>1. PREP PILOT DOES NOT REPRESENT A GOVERNMENT ENTITY:</strong><br>
-            PREP PILOT is an independent educational application developed and maintained by QuantaWerse for educational, self-study, and competitive exam preparation purposes only. PREP PILOT is <strong>NOT affiliated with, authorized by, endorsed by, sponsored by, or in any way officially connected with</strong> the Government of India, any State Government, Union Public Service Commission (UPSC), Staff Selection Commission (SSC), Railway Recruitment Boards (RRB), Institute of Banking Personnel Selection (IBPS), State Bank of India (SBI), Reserve Bank of India (RBI), National Testing Agency (NTA), or any other government authority or exam-conducting agency.</p>
-
-            <p><strong>2. NO GOVERNMENT SERVICES FACILITATED:</strong><br>
-            The application does NOT facilitate any government service, recruitment registration, hall ticket/admit card issuance, official candidate verification, or official government communication. It is strictly a self-study prep tool providing mock questions, flashcards, AI revision notes, and performance tracking.</p>
-
-            <p><strong>3. ACCURACY OF EXAM INFORMATION & USER RESPONSIBILITY:</strong><br>
-            All information regarding exam syllabi, pattern outlines, and sample questions are curated from publicly available educational resources and the official recruitment portals listed below. For official notifications, recruitment dates, application forms, and authoritative announcements, candidates must always refer exclusively to the official government portals.</p>
+    <!-- HEADER -->
+    <header class="header">
+        <span class="app-badge">📋 Official Policy &amp; Legal Notice</span>
+        <h1>Privacy Policy &amp; Legal Disclaimers</h1>
+        <div class="meta-info">
+            <strong>Application:</strong> PREP PILOT: Exam Preparation &nbsp;|&nbsp; Package: <code>com.quantawerse.preppilot</code><br>
+            <strong>Developer / Data Fiduciary:</strong> QuantaWerse (Adarsh Pathak)<br>
+            <strong>Last Updated &amp; Effective Date:</strong> October 4, 2026<br>
+            <strong>Applicable To:</strong> Android Application on Google Play Store
         </div>
+    </header>
 
-        <!-- SECTION 1: OFFICIAL SOURCES OF GOVERNMENT EXAM INFORMATION -->
-        <h2>1. Official Sources of Government Information</h2>
-        <p>In strict compliance with Google Play's <em>Misleading Claims & Government Information</em> policies, we provide below the direct, functional, and authentic government portals for every competitive examination and recruitment body referenced for preparation within the app:</p>
-
-        <table>
-            <thead>
-                <tr>
-                    <th>Examination / Body</th>
-                    <th>Official Authority</th>
-                    <th>Official Government Website (URL)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><strong>UPSC</strong> (Civil Services, CSE, CDS, NDA)</td>
-                    <td>Union Public Service Commission, Govt. of India</td>
-                    <td><a href="https://upsc.gov.in" target="_blank" rel="noopener noreferrer">https://upsc.gov.in</a></td>
-                </tr>
-                <tr>
-                    <td><strong>SSC</strong> (CGL, CHSL, CPO, MTS, GD)</td>
-                    <td>Staff Selection Commission, Govt. of India</td>
-                    <td><a href="https://ssc.gov.in" target="_blank" rel="noopener noreferrer">https://ssc.gov.in</a></td>
-                </tr>
-                <tr>
-                    <td><strong>Railways / RRB</strong> (NTPC, Group D, ALP)</td>
-                    <td>Ministry of Railways / Railway Recruitment Boards</td>
-                    <td><a href="https://indianrailways.gov.in" target="_blank" rel="noopener noreferrer">https://indianrailways.gov.in</a><br><a href="https://www.rrbcdg.gov.in" target="_blank" rel="noopener noreferrer">https://www.rrbcdg.gov.in</a></td>
-                </tr>
-                <tr>
-                    <td><strong>IBPS</strong> (PO, Clerk, SO, RRB)</td>
-                    <td>Institute of Banking Personnel Selection</td>
-                    <td><a href="https://www.ibps.in" target="_blank" rel="noopener noreferrer">https://www.ibps.in</a></td>
-                </tr>
-                <tr>
-                    <td><strong>SBI Careers</strong> (PO, Clerk)</td>
-                    <td>State Bank of India Recruitment Portal</td>
-                    <td><a href="https://sbi.co.in/web/careers" target="_blank" rel="noopener noreferrer">https://sbi.co.in/web/careers</a></td>
-                </tr>
-                <tr>
-                    <td><strong>RBI Opportunities</strong> (Grade B, Assistant)</td>
-                    <td>Reserve Bank of India</td>
-                    <td><a href="https://opportunities.rbi.org.in" target="_blank" rel="noopener noreferrer">https://opportunities.rbi.org.in</a></td>
-                </tr>
-                <tr>
-                    <td><strong>NTA</strong> (National Testing Agency)</td>
-                    <td>Ministry of Education, Govt. of India</td>
-                    <td><a href="https://nta.ac.in" target="_blank" rel="noopener noreferrer">https://nta.ac.in</a></td>
-                </tr>
-                <tr>
-                    <td><strong>CTET / Teacher Eligibility</strong></td>
-                    <td>Central Board of Secondary Education (CBSE)</td>
-                    <td><a href="https://ctet.nic.in" target="_blank" rel="noopener noreferrer">https://ctet.nic.in</a></td>
-                </tr>
-                <tr>
-                    <td><strong>State PSCs</strong> (State Civil Services)</td>
-                    <td>Respective State Public Service Commissions</td>
-                    <td>
-                        UPPSC: <a href="https://uppsc.up.nic.in" target="_blank" rel="noopener noreferrer">https://uppsc.up.nic.in</a><br>
-                        BPSC: <a href="https://bpsc.bih.nic.in" target="_blank" rel="noopener noreferrer">https://bpsc.bih.nic.in</a><br>
-                        MPPSC: <a href="https://mppsc.mp.gov.in" target="_blank" rel="noopener noreferrer">https://mppsc.mp.gov.in</a><br>
-                        MPSC: <a href="https://mpsc.gov.in" target="_blank" rel="noopener noreferrer">https://mpsc.gov.in</a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-
-        <!-- SECTION 2: INTRODUCTION & LEGAL FRAMEWORK -->
-        <h2>2. Privacy Commitment & Legal Framework</h2>
-        <p>PREP PILOT ("we", "our", or "us") is dedicated to safeguarding the privacy and personal data of our users ("user", "student", or "you"). This Privacy Policy describes how we collect, store, process, and protect your information when using the PREP PILOT mobile application.</p>
-        <p>This policy is formulated in full accordance with:</p>
-        <ul>
-            <li><strong>Digital Personal Data Protection Act, 2023 (DPDP Act, India)</strong></li>
-            <li><strong>Information Technology Act, 2000</strong> &amp; the <strong>IT (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011</strong></li>
-            <li><strong>Google Play Developer Distribution Agreement &amp; User Data Policies</strong></li>
-            <li>International data protection principles (including purpose limitation, data minimization, and user consent)</li>
-        </ul>
-
-        <!-- SECTION 3: INFORMATION WE COLLECT -->
-        <h2>3. Information We Collect</h2>
-        <p>We only collect information strictly necessary to provide our educational and test preparation services:</p>
-        <ul>
-            <li><strong>Account &amp; Profile Information:</strong> Full name, registered mobile phone number, username, and Telegram ID (only if you opt-in for Telegram login/sync).</li>
-            <li><strong>Educational &amp; Test Performance Data:</strong> Quiz submissions, mock test answers, test scores, accuracy metrics, time spent per question, bookmarks, and spaced-repetition flashcard review statuses.</li>
-            <li><strong>User-Generated Study Notes:</strong> Notes, summaries, and revision sheets saved locally or synchronized with your user account.</li>
-            <li><strong>Technical &amp; Diagnostics Data:</strong> Device model, operating system version, app version, network connectivity status, and crash logs to troubleshoot technical bugs and ensure high application stability.</li>
-        </ul>
-        <p><strong>What We DO NOT Collect:</strong> We do NOT collect Aadhaar numbers, PAN numbers, biometric information, banking/credit card credentials, or continuous precise GPS location data.</p>
-
-        <!-- SECTION 4: HOW WE USE YOUR INFORMATION -->
-        <h2>4. Purpose and Lawful Basis for Data Processing</h2>
-        <p>Your information is processed under the lawful basis of your explicit consent and legitimate educational service fulfillment:</p>
-        <ul>
-            <li>To authenticate your identity, generate one-time passwords (OTP), and secure your account.</li>
-            <li>To calculate test results, display performance analytics, and recommend weak-topic revisions.</li>
-            <li>To operate the spaced-repetition algorithm for flashcard learning.</li>
-            <li>To provide customer support and respond to user queries.</li>
-            <li>To detect, prevent, and mitigate fraud, bot usage, and unauthorized tampering.</li>
-        </ul>
-
-        <!-- SECTION 5: DATA SECURITY & ENCRYPTION -->
-        <h2>5. Data Security, Protection & Storage</h2>
-        <p>We implement stringent industry-standard technical and organizational security measures:</p>
-        <ul>
-            <li><strong>Encryption in Transit:</strong> All data transmitted between the PREP PILOT mobile app and our servers is secured using modern <strong>TLS / HTTPS 256-bit encryption</strong>.</li>
-            <li><strong>Encrypted Storage:</strong> Sensitive credentials and tokens are stored using secure hash algorithms and protected server databases.</li>
-            <li><strong>No Sale or Commercial Exploitation:</strong> We strictly do <strong>NOT</strong> sell, rent, trade, or monetize your personal information to advertisers, third-party marketing agencies, or data brokers.</li>
-        </ul>
-
-        <!-- SECTION 6: THIRD-PARTY SERVICE PROVIDERS -->
-        <h2>6. Third-Party Services and Sub-Processors</h2>
-        <p>We only engage trusted third-party providers essential for operating app features:</p>
-        <ul>
-            <li><strong>Cloud Infrastructure &amp; APIs:</strong> Secure server hosting for app API services and database synchronization.</li>
-            <li><strong>Telegram Bot API:</strong> For optional Telegram-based login and study updates (if opted in by user).</li>
-            <li><strong>Google Fonts:</strong> For rendering clean, legible typography within the app interface.</li>
-        </ul>
-
-        <!-- SECTION 7: DATA RETENTION & USER RIGHTS -->
-        <h2>7. Your Rights, Data Retention & Account Deletion</h2>
-        <p>Under the DPDP Act 2023 and Google Play policies, you have complete sovereignty over your personal data:</p>
-        <ul>
-            <li><strong>Right to Access &amp; Portability:</strong> You can review your profile, test scores, and analytics directly within the app dashboard.</li>
-            <li><strong>Right to Correction:</strong> You can update your profile details anytime in the app settings.</li>
-            <li><strong>Right to Erasure (Account Deletion):</strong> You can delete your account and all associated test history at any time:
-                <ol style="margin-top: 8px; margin-left: 20px;">
-                    <li><strong>In-App:</strong> Go to <em>Dashboard &rarr; Profile &rarr; Delete Account</em> and confirm.</li>
-                    <li><strong>Via Support Email:</strong> Send a deletion request to <a href="mailto:Support@quantawerse.online">Support@quantawerse.online</a> with your registered mobile number or username.</li>
-                </ol>
-            </li>
-        </ul>
-        <p>Upon receiving an account deletion request, all personal data, scores, and progress are permanently purged from active databases within <strong>30 days</strong>.</p>
-
-        <!-- SECTION 8: CHILDREN'S PRIVACY -->
-        <h2>8. Age Limit & Children's Privacy</h2>
-        <p>PREP PILOT is designed for students and adult candidates (typically 13 years of age and older) preparing for higher secondary, college, and professional competitive examinations. We do not knowingly solicit or collect personal information from children under the age of 13. If you believe a child under 13 has registered without parental consent, please contact us immediately, and we will delete the account promptly.</p>
-
-        <!-- SECTION 9: CHANGES TO THIS POLICY -->
-        <h2>9. Modifications to Privacy Policy</h2>
-        <p>We may periodically update this policy to reflect enhancements in our app or modifications in legal regulations. When changes are made, the revised policy will be posted on this page with an updated "Effective Date". Continued use of the app signifies your review and consent to the updated terms.</p>
-
-        <!-- SECTION 10: GRIEVANCE REDRESSAL & CONTACT -->
-        <div class="contact-box">
-            <h3>10. Grievance Officer & Official Contact Information</h3>
-            <p>In accordance with the Information Technology Act 2000 and the DPDP Act 2023, the details of our Grievance Redressal Officer are as follows:</p>
-            <p><strong>Name / Title:</strong> Grievance Redressal Officer, QuantaWerse</p>
-            <p><strong>Support & Legal Email:</strong> <a href="mailto:Support@quantawerse.online">Support@quantawerse.online</a></p>
-            <p><strong>Official Organization:</strong> QuantaWerse</p>
-            <p><strong>Official Website:</strong> <a href="https://quantawerse.online" target="_blank" rel="noopener noreferrer">https://quantawerse.online</a></p>
-            <p><strong>Resolution Timeline:</strong> Grievances are acknowledged within 24–48 hours and resolved within 15 business days.</p>
-        </div>
+    <!-- ========================== -->
+    <!-- SECTION 0: GOV DISCLAIMER  -->
+    <!-- ========================== -->
+    <div class="disclaimer-box">
+        <h3>⚠️ Mandatory Non-Government Entity Disclaimer</h3>
+        <p><strong>PREP PILOT DOES NOT REPRESENT ANY GOVERNMENT ENTITY:</strong> PREP PILOT is an independent, privately developed educational mobile application by QuantaWerse. It is <strong>NOT affiliated with, authorized by, endorsed by, sponsored by, or officially connected with</strong> the Government of India, any State Government, the Union Public Service Commission (UPSC), Staff Selection Commission (SSC), Railway Recruitment Boards (RRB), Institute of Banking Personnel Selection (IBPS), State Bank of India (SBI), Reserve Bank of India (RBI), National Testing Agency (NTA), CBSE, or any other government authority or exam-conducting agency.</p>
+        <p><strong>NO GOVERNMENT SERVICES ARE FACILITATED:</strong> The app does NOT process government applications, issue hall tickets/admit cards, verify official candidacy, or facilitate any government recruitment service. It is strictly an independent self-study practice tool.</p>
+        <p><strong>USER RESPONSIBILITY:</strong> For all official exam notifications, registration forms, admit cards, results, and authoritative announcements, candidates must exclusively refer to the official government portals listed in Section 1 below. PREP PILOT does not guarantee accuracy of any exam-pattern information and it may change without notice.</p>
     </div>
+
+    <!-- ============================= -->
+    <!-- SECTION 1: OFFICIAL SOURCES   -->
+    <!-- ============================= -->
+    <h2>1. Official Sources of Government Information</h2>
+    <p>In strict compliance with Google Play's <em>Misleading Claims &amp; Government Information</em> policy, we provide the direct, functional, and authoritative official government portals for all examinations referenced in this app:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Examination / Body</th>
+                <th>Official Authority</th>
+                <th>Official Website</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>UPSC</strong> (Civil Services, CDS, NDA)</td>
+                <td>Union Public Service Commission, Govt. of India</td>
+                <td><a href="https://upsc.gov.in" target="_blank" rel="noopener">upsc.gov.in</a></td>
+            </tr>
+            <tr>
+                <td><strong>SSC</strong> (CGL, CHSL, CPO, MTS, GD)</td>
+                <td>Staff Selection Commission, Govt. of India</td>
+                <td><a href="https://ssc.gov.in" target="_blank" rel="noopener">ssc.gov.in</a></td>
+            </tr>
+            <tr>
+                <td><strong>Railways / RRB</strong> (NTPC, Group D, ALP)</td>
+                <td>Ministry of Railways, Govt. of India</td>
+                <td><a href="https://indianrailways.gov.in" target="_blank" rel="noopener">indianrailways.gov.in</a><br>
+                    <a href="https://www.rrbcdg.gov.in" target="_blank" rel="noopener">rrbcdg.gov.in</a></td>
+            </tr>
+            <tr>
+                <td><strong>IBPS</strong> (PO, Clerk, SO, RRB)</td>
+                <td>Institute of Banking Personnel Selection</td>
+                <td><a href="https://www.ibps.in" target="_blank" rel="noopener">ibps.in</a></td>
+            </tr>
+            <tr>
+                <td><strong>SBI Careers</strong> (PO, Clerk)</td>
+                <td>State Bank of India</td>
+                <td><a href="https://sbi.co.in/web/careers" target="_blank" rel="noopener">sbi.co.in/web/careers</a></td>
+            </tr>
+            <tr>
+                <td><strong>RBI</strong> (Grade B, Assistant)</td>
+                <td>Reserve Bank of India</td>
+                <td><a href="https://opportunities.rbi.org.in" target="_blank" rel="noopener">opportunities.rbi.org.in</a></td>
+            </tr>
+            <tr>
+                <td><strong>NTA</strong> (National Testing Agency)</td>
+                <td>Ministry of Education, Govt. of India</td>
+                <td><a href="https://nta.ac.in" target="_blank" rel="noopener">nta.ac.in</a></td>
+            </tr>
+            <tr>
+                <td><strong>CTET</strong> (Teacher Eligibility Test)</td>
+                <td>Central Board of Secondary Education (CBSE)</td>
+                <td><a href="https://ctet.nic.in" target="_blank" rel="noopener">ctet.nic.in</a></td>
+            </tr>
+            <tr>
+                <td><strong>State PSCs</strong></td>
+                <td>State Public Service Commissions</td>
+                <td>
+                    UPPSC: <a href="https://uppsc.up.nic.in" target="_blank" rel="noopener">uppsc.up.nic.in</a><br>
+                    BPSC: <a href="https://bpsc.bih.nic.in" target="_blank" rel="noopener">bpsc.bih.nic.in</a><br>
+                    MPPSC: <a href="https://mppsc.mp.gov.in" target="_blank" rel="noopener">mppsc.mp.gov.in</a><br>
+                    MPSC: <a href="https://mpsc.gov.in" target="_blank" rel="noopener">mpsc.gov.in</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- =============================== -->
+    <!-- SECTION 2: LEGAL FRAMEWORK      -->
+    <!-- =============================== -->
+    <h2>2. Privacy Commitment &amp; Legal Framework</h2>
+    <p>PREP PILOT ("we", "our", "us", or "QuantaWerse") is committed to protecting the personal data of our users ("you" or "Data Principal"). This Privacy Policy governs the collection, use, storage, and protection of your personal data when you use the PREP PILOT mobile application.</p>
+    <p>This policy is drafted in compliance with:</p>
+    <ul>
+        <li><strong>Digital Personal Data Protection Act, 2023 (DPDP Act) — India</strong> &amp; the DPDP Rules, 2025</li>
+        <li><strong>Information Technology Act, 2000</strong> &amp; <strong>IT (SPDI) Rules, 2011</strong></li>
+        <li><strong>Google Play Developer Program Policies</strong> — User Data, Privacy &amp; Security, and Misleading Claims policies</li>
+        <li><strong>Google Play Data Safety</strong> disclosure requirements</li>
+        <li>Applicable international data protection principles (purpose limitation, data minimization, consent)</li>
+    </ul>
+
+    <!-- =============================== -->
+    <!-- SECTION 3: DATA WE COLLECT      -->
+    <!-- =============================== -->
+    <h2>3. Personal Data We Collect</h2>
+    <p>We collect only the minimum data necessary to provide our educational services:</p>
+    <ul>
+        <li><strong>Account &amp; Identity:</strong> Full name (optional), registered mobile phone number (used for OTP-based authentication), username, and Telegram User ID (only if you choose to connect via Telegram login).</li>
+        <li><strong>Educational &amp; Performance Data:</strong> Mock test answers and submissions, quiz scores, accuracy statistics, time-per-question metrics, bookmarks, flashcard review intervals, and personal study notes.</li>
+        <li><strong>AI-Assisted Content:</strong> Text prompts you provide to generate AI study notes via Google Gemini API are processed by Google's AI models. These prompts may be processed on Google's servers. See Section 6 for details.</li>
+        <li><strong>Technical &amp; Diagnostics:</strong> Device model, Android OS version, app version number, network connectivity status, and crash/error logs (for bug fixing and app stability).</li>
+    </ul>
+    <div class="info-box">
+        <p><strong>🔒 What We Do NOT Collect:</strong> We do NOT collect Aadhaar numbers, PAN numbers, biometric data, payment card/banking credentials, precise real-time GPS location, call logs, contacts list, photos/camera feed, or IMEI/device identifiers.</p>
+    </div>
+
+    <!-- =============================== -->
+    <!-- SECTION 4: PURPOSE OF PROCESSING-->
+    <!-- =============================== -->
+    <h2>4. Purpose &amp; Lawful Basis for Data Processing</h2>
+    <p>Under the DPDP Act 2023, your data is processed on the lawful basis of your explicit, informed, and affirmative consent, and for legitimate service delivery. The specific purposes are:</p>
+    <ul>
+        <li><strong>Account Authentication:</strong> To verify your identity via OTP and manage secure login sessions.</li>
+        <li><strong>Test &amp; Performance Services:</strong> To calculate scores, display personalized analytics, identify weak topics, and manage your learning streak.</li>
+        <li><strong>AI Notes Generation:</strong> To generate personalized study summaries using Google's Gemini AI API based on your input prompts.</li>
+        <li><strong>Spaced Repetition Engine:</strong> To schedule and optimize flashcard review intervals for better retention.</li>
+        <li><strong>Customer Support:</strong> To respond to your queries, grievances, and account-related requests.</li>
+        <li><strong>Security &amp; Fraud Prevention:</strong> To detect unauthorized access attempts, bot activity, and protect account integrity.</li>
+    </ul>
+    <p>We do <strong>NOT</strong> use your data for targeted advertising, profiling, or any commercial purpose beyond the services listed above.</p>
+
+    <!-- =============================== -->
+    <!-- SECTION 5: CONSENT & WITHDRAWAL -->
+    <!-- =============================== -->
+    <h2>5. Consent &amp; Right to Withdraw</h2>
+    <p>In accordance with the DPDP Act 2023, your consent for data processing is:</p>
+    <ul>
+        <li><strong>Explicit &amp; Informed:</strong> Obtained via the signup screen where you actively agree to this Privacy Policy and Terms of Service before creating an account.</li>
+        <li><strong>Freely Given:</strong> You are not compelled to consent. If you do not agree, you may not create an account or use personalized features.</li>
+        <li><strong>Revocable at Any Time:</strong> You may withdraw your consent and request complete account and data deletion at any time (see Section 9). Withdrawal does not affect the lawfulness of processing prior to withdrawal.</li>
+    </ul>
+
+    <!-- =============================== -->
+    <!-- SECTION 6: THIRD-PARTY SERVICES -->
+    <!-- =============================== -->
+    <h2>6. Third-Party Services &amp; Data Processors</h2>
+    <p>We engage the following trusted third-party services. Each sub-processor handles your data strictly for the stated purpose:</p>
+    <ul>
+        <li>
+            <strong>Google LLC — Gemini AI API (Google Generative AI):</strong> Used to generate AI-powered study notes and summaries. When you use the AI Notes feature, your input prompt text is sent to Google's Gemini API servers for processing. Google's use of this data is governed by Google's AI API Terms of Service and Privacy Policy. We do not store your AI prompts on our servers beyond session duration. Refer to: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>
+        </li>
+        <li>
+            <strong>Telegram Messenger Inc. — Telegram Bot API &amp; Login:</strong> Used for optional Telegram-based login authentication and study update notifications. If you connect your Telegram account, your Telegram User ID and username are shared with Telegram's servers to facilitate login. Refer to: <a href="https://telegram.org/privacy" target="_blank" rel="noopener">telegram.org/privacy</a>
+        </li>
+        <li>
+            <strong>Google LLC — Google Fonts:</strong> Used to load typography assets. Your device may make requests to Google's font servers. Refer to: <a href="https://developers.google.com/fonts/faq/privacy" target="_blank" rel="noopener">developers.google.com/fonts/faq/privacy</a>
+        </li>
+        <li>
+            <strong>QuantaWerse Cloud Infrastructure:</strong> Our own secure backend servers handle account data, quiz results, and performance analytics. All data is stored within secured and encrypted databases.
+        </li>
+    </ul>
+    <p>We do <strong>NOT</strong> share your personal data with advertising networks, data brokers, marketing agencies, or any unauthorized third party.</p>
+
+    <!-- =============================== -->
+    <!-- SECTION 7: DATA SECURITY        -->
+    <!-- =============================== -->
+    <h2>7. Data Security &amp; Protection</h2>
+    <ul>
+        <li><strong>Encryption in Transit:</strong> All data transmission between the PREP PILOT app and our servers uses industry-standard <strong>TLS 1.2/1.3 (HTTPS)</strong> encryption.</li>
+        <li><strong>Encrypted Storage:</strong> Passwords and authentication tokens are hashed using secure cryptographic algorithms. Raw passwords are never stored.</li>
+        <li><strong>Access Controls:</strong> Database access is restricted to authorized personnel with role-based access controls.</li>
+        <li><strong>No Commercial Sale:</strong> We <strong>strictly do NOT</strong> sell, rent, lease, or monetize your personal data in any form.</li>
+        <li><strong>Data Breach Notification:</strong> In the event of a personal data breach that poses a risk to your rights, we will notify affected users and, if required under law, the Data Protection Board of India, within 72 hours of becoming aware of such a breach.</li>
+    </ul>
+
+    <!-- =============================== -->
+    <!-- SECTION 8: DATA RETENTION       -->
+    <!-- =============================== -->
+    <h2>8. Data Retention Policy</h2>
+    <p>We retain your personal data only for as long as necessary to fulfill the purposes described in this policy:</p>
+    <ul>
+        <li><strong>Active Account Data:</strong> Retained for the duration your account remains active on PREP PILOT.</li>
+        <li><strong>Test &amp; Performance Records:</strong> Retained for the lifetime of your account to power analytics and progress tracking.</li>
+        <li><strong>AI Prompt Inputs:</strong> Not stored on our servers beyond the immediate processing session.</li>
+        <li><strong>Post-Deletion:</strong> Upon receiving an account deletion request, all personal data is permanently purged from our active databases within <strong>30 days</strong>. Anonymized, aggregated performance statistics (which cannot identify you) may be retained for product improvement.</li>
+    </ul>
+
+    <!-- =============================== -->
+    <!-- SECTION 9: USER RIGHTS & DELETE -->
+    <!-- =============================== -->
+    <h2>9. Your Rights &amp; Account Deletion</h2>
+    <p>Under the DPDP Act 2023 and Google Play's Account Deletion policy, you have the following rights as a Data Principal:</p>
+    <ul>
+        <li><strong>Right to Access:</strong> View your profile, test scores, and performance analytics within the app dashboard.</li>
+        <li><strong>Right to Correction:</strong> Update your profile name and username in the app settings.</li>
+        <li><strong>Right to Withdraw Consent:</strong> Delete your account to withdraw consent and stop all data processing.</li>
+        <li><strong>Right to Erasure (Account &amp; Data Deletion):</strong></li>
+    </ul>
+    <div class="deletion-box">
+        <p>✅ <strong>Option 1 — In-App (Instant):</strong> Open PREP PILOT → Go to <em>Profile (bottom tab)</em> → Scroll to <em>"Account Actions"</em> → Tap <strong>"Delete Account"</strong> → Confirm deletion.</p>
+        <p>✅ <strong>Option 2 — Web Form:</strong> Submit a deletion request via our web form at:<br>
+        <a href="https://adarsh1162.github.io/Prep-pilot-privacy/#delete" target="_blank" rel="noopener"><strong>https://adarsh1162.github.io/Prep-pilot-privacy/#delete</strong></a></p>
+        <p>✅ <strong>Option 3 — Email:</strong> Send an email to <a href="mailto:Support@quantawerse.online">Support@quantawerse.online</a> with Subject: <em>"Account Deletion Request"</em> and include your registered mobile number or username.</p>
+        <p>🗓️ <strong>Timeline:</strong> All personal data is permanently deleted within <strong>30 days</strong> of your request.</p>
+    </div>
+
+    <!-- =============================== -->
+    <!-- SECTION 10: AI DISCLAIMER       -->
+    <!-- =============================== -->
+    <h2>10. AI-Generated Content Disclaimer</h2>
+    <p>PREP PILOT uses Google's Gemini AI API to generate study notes and revision summaries. Please be aware:</p>
+    <ul>
+        <li>AI-generated content is for <strong>educational study assistance only</strong> and may not always be 100% accurate or up-to-date.</li>
+        <li>AI content is <strong>NOT a substitute</strong> for official exam notifications or authorized study materials from government sources.</li>
+        <li>Always cross-check AI-generated information with the official government portals listed in Section 1.</li>
+    </ul>
+
+    <!-- =============================== -->
+    <!-- SECTION 11: CHILDREN'S PRIVACY  -->
+    <!-- =============================== -->
+    <h2>11. Age Restriction &amp; Children's Privacy</h2>
+    <p>PREP PILOT is intended for users who are <strong>18 years of age or older</strong>, consistent with the eligibility criteria for competitive examinations in India (UPSC, SSC, banking, etc.). In accordance with India's <strong>DPDP Act 2023</strong>, which defines "children" as individuals under the age of 18:</p>
+    <ul>
+        <li>We do NOT knowingly collect personal data from anyone under 18 years of age.</li>
+        <li>If we become aware that a user under 18 has registered, we will immediately delete their account and all associated data.</li>
+        <li>We do NOT engage in tracking, behavioral monitoring, or targeted advertising of any kind.</li>
+        <li>If you believe an underage user has registered, please contact us at <a href="mailto:Support@quantawerse.online">Support@quantawerse.online</a> immediately.</li>
+    </ul>
+
+    <!-- =============================== -->
+    <!-- SECTION 12: POLICY UPDATES      -->
+    <!-- =============================== -->
+    <h2>12. Updates to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy periodically to reflect changes in our app features, data practices, or applicable laws (including DPDP Act Rules as they are notified). Material changes will be communicated via an in-app notification and by updating the "Last Updated" date at the top of this page. Your continued use of the app following such changes constitutes your acknowledgment of the updated policy.</p>
+
+    <!-- =============================== -->
+    <!-- SECTION 13: GRIEVANCE & CONTACT -->
+    <!-- =============================== -->
+    <div class="contact-box">
+        <h3>13. Grievance Officer &amp; Official Contact</h3>
+        <p>In accordance with the Information Technology Act 2000, DPDP Act 2023, and Google Play's developer policies, you may raise grievances or exercise your data rights by contacting:</p>
+        <p><strong>Grievance Redressal Officer:</strong> QuantaWerse (Adarsh Pathak)</p>
+        <p><strong>Email:</strong> <a href="mailto:Support@quantawerse.online">Support@quantawerse.online</a></p>
+        <p><strong>Website:</strong> <a href="https://quantawerse.online" target="_blank" rel="noopener">https://quantawerse.online</a></p>
+        <p><strong>Privacy Policy URL:</strong> <a href="https://adarsh1162.github.io/Prep-pilot-privacy/" target="_blank" rel="noopener">https://adarsh1162.github.io/Prep-pilot-privacy/</a></p>
+        <p><strong>Response Timeline:</strong> All grievances are acknowledged within <strong>24–48 hours</strong> and resolved within <strong>15 business days</strong>, as required under applicable Indian law.</p>
+    </div>
+
+    <!-- Account Deletion Web Form Anchor -->
+    <div id="delete" style="margin-top: 30px; padding: 20px; background: #fafafa; border: 1px solid #e2e8f0; border-radius: 10px;">
+        <h3 style="color: #0f172a; font-size: 17px; font-weight: 700; margin-bottom: 12px;">🗑️ Request Account &amp; Data Deletion</h3>
+        <p style="color: #475569; font-size: 14px; margin-bottom: 12px;">To request deletion of your account and all associated personal data, please send an email to the address below with your registered mobile number or username. You may also use the in-app "Delete Account" feature in the Profile section.</p>
+        <p style="font-size: 15px; font-weight: 600;">📧 <a href="mailto:Support@quantawerse.online?subject=Account Deletion Request - PREP PILOT&body=Dear Support Team,%0A%0APlease delete my PREP PILOT account and all associated personal data.%0A%0ARegistered Mobile / Username: [Your Mobile or Username]%0A%0AThank you.">Support@quantawerse.online</a></p>
+        <p style="color: #64748b; font-size: 13px; margin-top: 8px;">Requests are processed within 30 days. Your data will be permanently and irreversibly deleted.</p>
+    </div>
+
+</div>
 </body>
 </html>
